@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dongfangmu.github.io/"/>
-  <updated>2019-08-19T17:14:16.920Z</updated>
+  <updated>2019-08-20T12:04:47.028Z</updated>
   <id>https://dongfangmu.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试加密</title>
+    <link href="https://dongfangmu.github.io/2019/08/20/%E6%B5%8B%E8%AF%95%E5%8A%A0%E5%AF%86/"/>
+    <id>https://dongfangmu.github.io/2019/08/20/测试加密/</id>
+    <published>2019-08-20T12:04:06.000Z</published>
+    <updated>2019-08-20T12:04:47.028Z</updated>
+    
+    <content type="html"><![CDATA[<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="输入密码，查看文章" />    <label for="pass">输入密码，查看文章</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1+ypYlavp7Vcrq9YRJMC5wet59IcrkSGm/Kiw6Hl+z5WmQ2r9zKqcSCnWkmDbMwyajPp3z1rUvjBZzJtoOPNMNukX6mrXkKBGU=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      密码
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>超详细小白部署win10和debian10双系统教程</title>
