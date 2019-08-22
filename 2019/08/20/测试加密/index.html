@@ -382,7 +382,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX19UY9nfR2jFIEnTMs7Iwe9nUY0VjBxqrCuYpKOcDYwM7DVCP4LxgT1/e6Sxmbjl1bpjL493tG1pD+8G59p05Q59nZcabrnDsxU=
+U2FsdGVkX19Pw0SctId4eWi4/csrewX+NnmEUjtVoHczVO+o36dDK8WNE3V5eMJwU9q/MuyezipC9rMJ3vCILOAulqIZe2ic8KSIZK7RBxQ=
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       
@@ -606,6 +606,33 @@ U2FsdGVkX19UY9nfR2jFIEnTMs7Iwe9nUY0VjBxqrCuYpKOcDYwM7DVCP4LxgT1/e6Sxmbjl1bpjL493
      
      </div>
   </aside>
+<div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("08/18/2019/17:37:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
 
 
         
