@@ -113,7 +113,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -394,7 +394,7 @@
 <div id="decryptionError" style="display: none;">Incorrect Password!</div>
 <div id="noContentError" style="display: none;">No content to display!</div>
 <div id="encrypt-blog" style="display:none">
-U2FsdGVkX182MEqHNst4TijmHu++YsYDiQxoh423fFXw2k9iTe7KxZXxZIG/eCTQ+zI5QcRPGBTFdt4g64BNyZp//yr0+DmJ9MdNwPL+rBFtk8genK/HcZx73HiZYZumB/GU+P2OYxq9+9DkJvr3suWT6V3d1Fuf7oTHatUBM85emOK6vvNOsU0Kv5Ql5BuwlrI/XwaC3V6+/qhP3azWVe7nEB6CyHQ55ZQScChniDx9uTmtu9ybILqBYIYcNVo9sZhuGG1gqtmi11fWF/jfMYa6PPnr9vEVgkKbJ5SGn1f4Vlbs8hf2irRJ6qoNg2gYxED5GTJouEkZ50asVj4WuMTggtmwI0QXJ1Gn+UUypJANcikQB8QxuGYdXiTq6LA8VX2F4W3J8k/JL5kujky+mVHMztbbRwoKZsJSvPo4MSl6LJo5WQEdQJ7TdjvFofPNxZNcahOD7EgFWWrCOl8P8w==
+U2FsdGVkX1853Y8EQyCPTTBXW++XaPqWKoXFooexVzK9Cs4x8OhdxVnt+WZSqp6aybfXR5tFtNZ6vGYlqmXwIWd/wEaOnDryDvDX2c8JBn6oj7sf7dyXd5ZehcmyabiCwTKKafKk76J9/iqPN4hgYWUQpA+0y9Hhwy4ovZPTDyWyrXE3l6TC8SHMy4pA7NzyTt0sVgzCBzaiZ3o2UVl4Y+B29RXOitoJ6teWJLI8f6LrJFqCfY4hw/s9B5d5DgNyF54MzRa+lE1biPRqY1WDu/UXP6+JoLJnSEJRpoOQwss2aYAupr55D7BNOC98tfP6vSnddLCV8+aeEXtavt4fd0Sx4s8968XiuYq6SPqNQ0r+pHgCw+VnYV8p7DmePwfPfk2w0kI/Lf8DpM4V1vsulNBwBPZMCsyzX0XQ0gHXxtdag8RT6fucCamvbdzYJRKWT7JXNtaMRNdu+iDdfc9b1w==
 </div>
 <script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       
@@ -509,6 +509,8 @@ U2FsdGVkX182MEqHNst4TijmHu++YsYDiQxoh423fFXw2k9iTe7KxZXxZIG/eCTQ+zI5QcRPGBTFdt4g
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -592,29 +594,7 @@ U2FsdGVkX182MEqHNst4TijmHu++YsYDiQxoh423fFXw2k9iTe7KxZXxZIG/eCTQ+zI5QcRPGBTFdt4g
           
           
 
-          
-
-        </div>
-      </section>
-
-      
-
-      
-        <div class="back-to-top">
-          <i class="fa fa-arrow-up"></i>
-          
-            <span id="scrollpercent"><span>0</span>%</span>
-          
-        </div>
-      
-
-    </div>
-     <div id="music163player">
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="96" src="//music.163.com/outchain/player?type=2&id=28188427&auto=1&height=66"></iframe>
-     
-     </div>
-  </aside>
-<div id="days"></div>
+          <div id="days"></div>
 
 <script language="javascript">
 function show_date_time(){
@@ -641,6 +621,28 @@ return i;
 }
 show_date_time();
 </script>
+
+        </div>
+      </section>
+
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+     <div id="music163player">
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="96" src="//music.163.com/outchain/player?type=2&id=28188427&auto=1&height=66"></iframe>
+     
+     </div>
+  </aside>
+
 
 
         
