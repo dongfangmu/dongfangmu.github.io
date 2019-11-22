@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dongfangmu.github.io/about/index.html</loc>
+    
+    <lastmod>2019-11-22T07:40:09.004Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dongfangmu.github.io/2019/09/10/%E6%9C%BA%E5%9C%BA%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     
-    <lastmod>2019-11-21T08:03:32.758Z</lastmod>
+    <lastmod>2019-11-22T07:31:56.750Z</lastmod>
     
   </url>
   
@@ -47,13 +54,6 @@
     <loc>https://dongfangmu.github.io/lib/canvas-nest/README.html</loc>
     
     <lastmod>2019-08-20T05:44:52.954Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dongfangmu.github.io/about/index.html</loc>
-    
-    <lastmod>2019-08-19T04:02:00.052Z</lastmod>
     
   </url>
   
