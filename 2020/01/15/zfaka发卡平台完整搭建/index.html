@@ -93,17 +93,25 @@
 
 
 
-<meta name="description" content="东方互联官网dongfanghulian.com">
+<meta name="description" content="好用的vpn东方互联官网dongfanghulian.com">
 <meta property="og:type" content="article">
-<meta property="og:title" content="zfaka发卡平台完整搭建">
+<meta property="og:title" content="zfaka发卡平台完整搭建教程">
 <meta property="og:url" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/index.html">
 <meta property="og:site_name" content="东方木">
-<meta property="og:description" content="东方互联官网dongfanghulian.com">
+<meta property="og:description" content="好用的vpn东方互联官网dongfanghulian.com">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-01-15T14:31:18.360Z">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/1.png">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/3.png">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/4.png">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/2.png">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/4.png">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/4.png">
+<meta property="og:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/5.png">
+<meta property="og:updated_time" content="2020-01-28T04:48:30.319Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="zfaka发卡平台完整搭建">
-<meta name="twitter:description" content="东方互联官网dongfanghulian.com">
+<meta name="twitter:title" content="zfaka发卡平台完整搭建教程">
+<meta name="twitter:description" content="好用的vpn东方互联官网dongfanghulian.com">
+<meta name="twitter:image" content="https://dongfangmu.github.io/2020/01/15/zfaka发卡平台完整搭建/1.png">
 
 
 
@@ -139,7 +147,7 @@
 
 
 
-  <title>zfaka发卡平台完整搭建 | 东方木</title>
+  <title>zfaka发卡平台完整搭建教程 | 东方木</title>
   
 
 
@@ -316,7 +324,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">zfaka发卡平台完整搭建</h1>
+          <h1 class="post-title" itemprop="name headline">zfaka发卡平台完整搭建教程</h1>
         
 
         <div class="post-meta">
@@ -344,8 +352,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-01-15T22:31:18+08:00">
-                2020-01-15
+              <time title="更新于" itemprop="dateModified" datetime="2020-01-28T12:48:30+08:00">
+                2020-01-28
               </time>
             
           </span>
@@ -383,12 +391,22 @@
       
 
       
-        <p>东方互联官网dongfanghulian.com</p>
+        <p>好用的vpn东方互联官网dongfanghulian.com</p>
 <a id="more"></a>
 <h3 id="zfaka搭建和当面付对接"><a href="#zfaka搭建和当面付对接" class="headerlink" title="zfaka搭建和当面付对接"></a>zfaka搭建和当面付对接</h3><h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><h4 id="1、准备"><a href="#1、准备" class="headerlink" title="1、准备"></a>1、准备</h4><p>centos7系统的vps一台root连接上</p>
 <h4 id="2、搭建宝塔面板"><a href="#2、搭建宝塔面板" class="headerlink" title="2、搭建宝塔面板"></a>2、搭建宝塔面板</h4><p>复制以下内容到服务器执行</p>
-<h3 id="对接当面付"><a href="#对接当面付" class="headerlink" title="对接当面付"></a>对接当面付</h3><p>先写到这里有时间再更<br>感谢大家观看，如果急用联系我也可以。</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum <span class="keyword">install</span> -y wget &amp;&amp; wget -O <span class="keyword">install</span>.sh http://download.bt.cn/<span class="keyword">install</span>/install_6.<span class="number">0</span>.sh &amp;&amp; bash <span class="keyword">install</span>.sh</span><br></pre></td></tr></table></figure>
 
+<p>安装宝塔面板完成以后进去选  安装lnmp环境，php选择7.1<br>然后创建个网站。记住mysql的名字和密码一会儿要用。</p>
+<h4 id="3、执行一键安装"><a href="#3、执行一键安装" class="headerlink" title="3、执行一键安装"></a>3、执行一键安装</h4><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget -<span class="keyword">N</span> --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/lizhongnian/ZFaka-Onekey-ForBT/master/ZFaka-Onekey-ForBT-Install.<span class="keyword">sh</span> &amp;&amp;</span><br><span class="line">chmod +<span class="keyword">x</span> ZFaka-Onekey-ForBT-Install.<span class="keyword">sh</span> &amp;&amp;</span><br><span class="line">bash ZFaka-Onekey-ForBT-Install.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure>
+
+<p>执行途中会输入网站目录，mysql的用户名密码以及库名，确认信息后按1继续安装，等待一小会即可安装成功,安装成功后会提示<br>按照提示信息登录后台修改操作了。</p>
+<p>前边没有什么需要操作的地方，图片就不放了。重点是支付宝的对接</p>
+<h3 id="对接当面付"><a href="#对接当面付" class="headerlink" title="对接当面付"></a>对接当面付</h3><h4 id="外围工作"><a href="#外围工作" class="headerlink" title="外围工作"></a>外围工作</h4><p>进后台先改一下网址<br>具体在这里<br><img src="1.png" alt><br>修改成自己的域名。<br>然后支付宝创建应用<br><img src="3.png" alt><br>网址要跟上面的网址一样<br>下面的三个圈圈<br>第一个圈圈跟圈圈上面那个一样<br>第二个是授权回调<br>这个在我们的后台<br>设置中心-支付设置<br><img src="4.png" alt></p>
+<h4 id="然后就是我们的密钥系列"><a href="#然后就是我们的密钥系列" class="headerlink" title="然后就是我们的密钥系列"></a>然后就是我们的密钥系列</h4><p><img src="2.png" alt><br>这样生成一个，，<br>把商户应用私钥复制到下面图片的最下面那个框框。<br><img src="4.png" alt><br>把商户公钥复制到支付宝应用里面会出来一个支付宝公钥复制到<br><img src="4.png" alt><br>这个图中间的框框里面。<br>然后把id对应一下复制过来。<br>支付宝写成上图那样就可以了。以我为准。<br>网站下面这样选<br><img src="5.png" alt><br>然后确定！</p>
+<h3 id="注意，域名"><a href="#注意，域名" class="headerlink" title="注意，域名"></a>注意，域名</h3><p>1、最开始你执行脚本输入的域名<br>2、宝塔创建网站的域名<br>3、发卡后端修改的域名<br>4、支付宝应用填写的域名<br>这四个域名一定要一致！！！</p>
+<h2 id="一个简单的发卡就搭建成功啦。脚本来自于七彩blog。"><a href="#一个简单的发卡就搭建成功啦。脚本来自于七彩blog。" class="headerlink" title="一个简单的发卡就搭建成功啦。脚本来自于七彩blog。"></a>一个简单的发卡就搭建成功啦。脚本来自于七彩blog。</h2><p>很棒很好用重点是支付宝对接。</p>
+<h2 id="疫情流行大家一定不要出门保重！！！"><a href="#疫情流行大家一定不要出门保重！！！" class="headerlink" title="疫情流行大家一定不要出门保重！！！"></a>疫情流行大家一定不要出门保重！！！</h2>
       
     </div>
     
@@ -636,7 +654,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#zfaka搭建和当面付对接"><span class="nav-number">1.</span> <span class="nav-text">zfaka搭建和当面付对接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搭建"><span class="nav-number">2.</span> <span class="nav-text">搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、准备"><span class="nav-number">2.1.</span> <span class="nav-text">1、准备</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、搭建宝塔面板"><span class="nav-number">2.2.</span> <span class="nav-text">2、搭建宝塔面板</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对接当面付"><span class="nav-number">3.</span> <span class="nav-text">对接当面付</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#zfaka搭建和当面付对接"><span class="nav-number">1.</span> <span class="nav-text">zfaka搭建和当面付对接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搭建"><span class="nav-number">2.</span> <span class="nav-text">搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、准备"><span class="nav-number">2.1.</span> <span class="nav-text">1、准备</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、搭建宝塔面板"><span class="nav-number">2.2.</span> <span class="nav-text">2、搭建宝塔面板</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、执行一键安装"><span class="nav-number">2.3.</span> <span class="nav-text">3、执行一键安装</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对接当面付"><span class="nav-number">3.</span> <span class="nav-text">对接当面付</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#外围工作"><span class="nav-number">3.1.</span> <span class="nav-text">外围工作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后就是我们的密钥系列"><span class="nav-number">3.2.</span> <span class="nav-text">然后就是我们的密钥系列</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注意，域名"><span class="nav-number">4.</span> <span class="nav-text">注意，域名</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#一个简单的发卡就搭建成功啦。脚本来自于七彩blog。"><span class="nav-number"></span> <span class="nav-text">一个简单的发卡就搭建成功啦。脚本来自于七彩blog。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#疫情流行大家一定不要出门保重！！！"><span class="nav-number"></span> <span class="nav-text">疫情流行大家一定不要出门保重！！！</span></a></li></div>
             
 
           </div>
