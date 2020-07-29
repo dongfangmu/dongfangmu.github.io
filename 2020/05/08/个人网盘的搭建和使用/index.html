@@ -125,7 +125,7 @@
 <meta property="og:image" content="https://res.cloudinary.com/dongfangmu/image/upload/v1588914022/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125956_gm2tan.png">
 <meta property="og:image" content="https://res.cloudinary.com/dongfangmu/image/upload/v1588915813/%E6%88%91%E7%9A%84/A_Z_O9QD_4_RK73SC3_ir5vqe.png">
 <meta property="og:image" content="https://res.cloudinary.com/dongfangmu/image/upload/v1588915814/%E6%88%91%E7%9A%84/U_2I3WXW0Q_0X_6_WU_KA_xe0yz7.png">
-<meta property="og:updated_time" content="2020-07-19T23:22:51.853Z">
+<meta property="og:updated_time" content="2020-07-29T23:51:20.100Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GDIndex网盘的搭建和使用">
 <meta name="twitter:description" content="东方木整理">
@@ -370,8 +370,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-07-20T07:22:51+08:00">
-                2020-07-20
+              <time title="更新于" itemprop="dateModified" datetime="2020-07-30T07:51:20+08:00">
+                2020-07-30
               </time>
             
             
@@ -414,7 +414,7 @@
 <a id="more"></a>
 <h3 id="浅谈"><a href="#浅谈" class="headerlink" title="浅谈"></a>浅谈</h3><p>写于2020-05-08 09:20<br><br>近期因为蔡君被抓，网上也出现了好多关于一些百度云的替代方案。这里我详细说一种我感觉不错的方案</p>
 <h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>1、一个谷歌账号<br>2、一个cloudflare（以下简称cf）账号，如果没有可以用上面注册的谷歌账号注册一下！<br>3、如果你想添加个域名，再准备一个域名，这里推荐namesilo的域名！<br>教程主体来源于网络，感谢开发人员。<br>我这里分享一下实践过程中遇到的问题和注意事项！小白请看大神勿喷</p>
-<h3 id="代码获取"><a href="#代码获取" class="headerlink" title="代码获取"></a>代码获取</h3><p>注册谷歌账号需要用到梯，这里推荐大家去<a href="https://dongfanghulian.com" target="_blank" rel="noopener">东方互联</a>我设置了注册免费送一天，以供大家完成下面的操作，（东方互联操作简单教程详细支持多个客户端小白也能轻松上手）谷歌网盘部署到cf以后上传和下载是不需要梯的。但是你要在谷歌云里面先创建好文件夹呀，他这个好象是不能创建文件夹的。</p>
+<h3 id="代码获取"><a href="#代码获取" class="headerlink" title="代码获取"></a>代码获取</h3><p>注册谷歌账号需要用到梯，谷歌网盘部署到cf以后上传和下载是不需要梯的。但是你要在谷歌云里面先创建好文件夹呀，他这个好象是不能创建文件夹的。</p>
 <h4 id="谷歌账号"><a href="#谷歌账号" class="headerlink" title="谷歌账号"></a>谷歌账号</h4><p>1、挂梯然后打开<a href="https://www.google.com/" target="_blank" rel="noopener">谷歌</a>点击右上角的登录<br>下面请看图更直白<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914015/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125843_pi4cbq.png" alt><br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914017/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125853_faijqv.png" alt><br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914017/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125857_rygufr.png" alt><br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914017/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125900_qbgke3.png" alt><br>然后输入验证码验证就行了。<br>注册好以后浏览器打开<a href="https://mail.google.com/" target="_blank" rel="noopener">谷歌邮箱</a>登录自己刚注册的账号。（需梯）<br>（题外话，注册帐号以后谷歌是赠送5g还是15g来着免费空间，个人认为这个也保险。毕竟一般人重要的东西不太多，如果多的话买个100g套餐也不贵一年20刀左右，充值的话有淘宝礼品卡。如果感觉不够或者想放一些临时文件你可以看下面这个申请大容量共享网盘）</p>
 <h4 id="申请共享网盘（可选）"><a href="#申请共享网盘（可选）" class="headerlink" title="申请共享网盘（可选）"></a>申请共享网盘（可选）</h4><p>下面放几个来源于网络的申请地址地址<br>点进去下面任意一个网址，填写一个随便的名字和自己的谷歌邮箱点下面的submit即可。如果不确定成功没有可以登录<a href="https://drive.google.com/" target="_blank" rel="noopener">谷歌云盘</a>看一下侧边有没有共享网盘成功的话如下图。（说句题外话，东方木个人感觉免费撸的这些东西说不定那天就没了或者被收费了，还是那句话谁也不知道薅羊毛和割韭菜哪个先到。）<br><a href="https://tv.ssr.workers.dev/" target="_blank" rel="noopener">地址1</a><br><a href="https://www.iy.workers.dev/" target="_blank" rel="noopener">地址2</a><br><a href="https://gd.zxd.workers.dev/" target="_blank" rel="noopener">地址3</a><br>下面是成功以后的图片<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914018/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125912_pyt7ia.png" alt></p>
 <h4 id="制作代码"><a href="#制作代码" class="headerlink" title="制作代码"></a>制作代码</h4><p>打开<a href="https://gdindex-code-builder.glitch.me/" target="_blank" rel="noopener">这个链接</a>直接进行简单部署<br>或者如果需要手动可以移步<a href="https://github.com/dongfangmu/GDIndex" target="_blank" rel="noopener">我的github查看</a><br>接下来说简单部署的方法，打开上面的网址我们看到几个需要填写的内容<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914029/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125903_v6tpy4.png" alt></p>
@@ -429,8 +429,7 @@
 <h4 id="将购买的域名托管到cf"><a href="#将购买的域名托管到cf" class="headerlink" title="将购买的域名托管到cf"></a>将购买的域名托管到cf</h4><h5 id="namesilo处的操作"><a href="#namesilo处的操作" class="headerlink" title="namesilo处的操作"></a>namesilo处的操作</h5><p>刚才购买完了然后回到namesilo主页打开<a href="https://www.namesilo.com/" target="_blank" rel="noopener">官网</a><br>点击右上角的登录，<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914021/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125949_v2cyoc.png" alt><br>然后进入这个页面点击侧边栏第二个进入自己所拥有的域名页面<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914021/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125946_vwjjmx.png" alt><br>选中自己的域名点击头上的第二个<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914022/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125953_gohsc0.png" alt><br>进去以后下拉把12行改成如图那样，第三行内容删除然后点下面的保存。<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588914022/%E6%88%91%E7%9A%84/QQ%E5%9B%BE%E7%89%8720200508125956_gm2tan.png" alt></p>
 <h5 id="cf处的操作"><a href="#cf处的操作" class="headerlink" title="cf处的操作"></a>cf处的操作</h5><p>打开<a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">cf官网</a><br>登录你的账号<br>添加站点<br>输入你刚才的域名<br>一直下一步就行中途需要你填一个解析，前面写@后面随便一个ip地址就行。然后继续保存。<br>直到生效</p>
 <h4 id="添加域名-1"><a href="#添加域名-1" class="headerlink" title="添加域名"></a>添加域名</h4><p>托管好域名等待生效，然后进入cf页面点击你刚才托管的域名<br>点workers点添加路由<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588915813/%E6%88%91%E7%9A%84/A_Z_O9QD_4_RK73SC3_ir5vqe.png" alt><br>然后按要求设置<br><img src="https://res.cloudinary.com/dongfangmu/image/upload/v1588915814/%E6%88%91%E7%9A%84/U_2I3WXW0Q_0X_6_WU_KA_xe0yz7.png" alt><br>到此输入域名打开网盘</p>
-<h3 id="感谢您的观看与使用"><a href="#感谢您的观看与使用" class="headerlink" title="感谢您的观看与使用"></a>感谢您的观看与使用</h3><p>如果您感觉教程也可以选择购买东方互联的服务支持一下站长，打赏就不用了。</p>
-<h3 id="祝您开心快乐每一天有问题下面留言看到都会回复"><a href="#祝您开心快乐每一天有问题下面留言看到都会回复" class="headerlink" title="祝您开心快乐每一天有问题下面留言看到都会回复"></a>祝您开心快乐每一天有问题下面留言看到都会回复</h3>
+<h3 id="感谢您的观看与使用"><a href="#感谢您的观看与使用" class="headerlink" title="感谢您的观看与使用"></a>感谢您的观看与使用</h3><h3 id="祝您开心快乐每一天有问题下面留言看到都会回复"><a href="#祝您开心快乐每一天有问题下面留言看到都会回复" class="headerlink" title="祝您开心快乐每一天有问题下面留言看到都会回复"></a>祝您开心快乐每一天有问题下面留言看到都会回复</h3>
       
     </div>
     
